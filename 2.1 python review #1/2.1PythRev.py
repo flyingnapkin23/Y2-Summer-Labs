@@ -11,6 +11,7 @@ for i in range (len(tempatures)):
 
 	if tempatures[i] > max:
 		max = tempatures[i]
+
 		max_day = days_of_week[i]
 
 	if tempatures[i] < min:
